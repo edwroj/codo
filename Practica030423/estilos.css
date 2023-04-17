@@ -1,0 +1,35 @@
+body{
+
+  background: beige;
+  
+  
+  }
+h1{
+  
+  text-align: center;
+  
+  
+}
+.box {
+    display: inline-block;
+    color: yellow;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    background: red;
+    border: 36px;
+    padding: 0px;
+   
+  }
+#dos {
+    
+    background: black;
+    color: white;
+
+  }
+*/
+footer{
+  color: black;
+}
+

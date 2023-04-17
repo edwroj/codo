@@ -1,0 +1,17 @@
+body{
+    background: blue;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    background: pink;
+    }
+
+.flex > div{
+    background: white;
+    width: 20px;
+    height: 30px;
+
+}
+

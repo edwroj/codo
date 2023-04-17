@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+
+
+
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+
+nav{
+    background-color: magenta;
+}
+
+footer{
+    background-color: beige;
+    text-align: center;
+    color: black;
+}
+
