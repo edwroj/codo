@@ -5,23 +5,20 @@
 }
 
 .container{
-    display: flex;
+    display:flex;
     
+        
 }
-
 .honolulu{
     margin: 1px;
 }
-
 .texto{
     background-color: grey;
     width: 500px;
     height: 400px;
     color: white;
     font-size: 12px;
-    
 }
-
 .container-fluid{
     position: relative;
     display: inline-block;
@@ -33,7 +30,6 @@
     left: 500px;
     font-size: 14px;
     color: white;
-    
 }
 .centrado{
     position: absolute;
@@ -45,39 +41,50 @@
 }
 img{
     opacity: 0.8;
+    
 }
-
 .menu-confe{
     color: white;
 }
-
 .nav-link{
     color: white;
 }
-
 .menu{
     position: relative;
     left: 150px;
-    
-
 }
 .menu-pie{
     position: relative;
     left: 80px;
-    
-
 }
 .sec-formula1{
     position: relative;
-    left: 500px;
+    left: 550px;
     font-size: 14px;
 }
 .sec-formula2{
     position: relative;
-    left: 520px;
+    left: 570px;
 }
 .mb-3{
     position: relative;
     left: 250px; 
     
+}
+.row{
+    position: relative;
+    left: 10px;
+}
+.btn-pr{
+    position: relative;
+    left: 150px;
+}
+.btn-texto{
+    position: relative;
+    left: 150px;
+}
+.btn-form{
+    margin: 5px;
+    position: relative;
+    left: 550px;
 }

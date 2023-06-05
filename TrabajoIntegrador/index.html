@@ -70,7 +70,7 @@
     </div>
     <div class="texto-encima">
       <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-      <div class="btn-pri">
+      <div class="btn-pr">
       <button type="button" class="btn btn-light btn-sm">Quiero ser orador</button>
       <button type="button" class="btn btn-success btn-sm">Comprar tickets</button>
       </div>
@@ -135,17 +135,20 @@
 
 <div class="container">
   <div class="honolulu">
-    <img src="./honolulu.jpg" width="550" height="400">
+    <img src="./honolulu.jpg" width="520" height="400">
   </div>
   <div class="texto">
     <h5>Bs As - Octubre</h5>
     <p>Buenos Aires es la provincia mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600Km2 de superficie).</p>
-    <button type="button" class="btn btn-outline-light btn-sm">Conoce más</button>
-  </div>  
+    <div class="btn-texto">
+      <button type="button" class="btn btn-outline-light btn-sm">Conoce más</button>
+    </div>
+  </div>
+    
 </div>
 
 <br>
-<br>
+
 
 <div class="sec-formula1">
   <p>CONVIERTETE EN UN</p>
@@ -153,6 +156,7 @@
 <div class="sec-formula2">
   <h5>ORADOR</h5>
 </div>
+<br>
 
 
 <form>
@@ -165,9 +169,12 @@
       <label for="apellido">Apellido</label>
       <input type="text" class="form-control" placeholder="Apellido" id="apellido" required>
     </div>
-    <div class="col">
+    
+    <div class="form-text">
       <label for="texto">Introduzca Texto</label>
-      <input type="text" class="form-control" placeholder="Sobre que quieres hablar?" required>
+      
+      <!--<input type="text" class="form-control" placeholder="Sobre que quieres hablar?" required>-->
+      <textarea class="form-control" name="area" id="idarea" cols="150" rows="5" placeholder="Sobre que quieres hablar?" required></textarea> 
     </div>
     <div class="btn-form">
       <button type="submit" class="btn btn-primary">Enviar</button>
@@ -180,7 +187,7 @@
 <br>
 
 <footer>
-  <nav class="navbar navbar-expand-lg bg-dark">
+  <nav class="navbar navbar-expand-lg bg-secondary">
     <div class="container-fluid">
       
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

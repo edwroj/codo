@@ -1,0 +1,22 @@
+.container-fluid{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    font-size: 20px;
+    color: white;
+    
+}
+.centrado{
+    position: absolute;
+    font-size: 50px;
+
+}
+
+position: relative;
+    left: 550px;
+    font-size: 14px;
